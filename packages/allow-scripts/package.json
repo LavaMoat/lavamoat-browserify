@@ -28,7 +28,8 @@
     "lint": "npm run lint:standard && npm run lint:deps",
     "lint:standard": "standard src/**/*.js",
     "lint:fix": "standard src/**/*.js --fix",
-    "lint:deps": "depcheck"
+    "lint:deps": "depcheck",
+    "preinstall": "node ./writeRc.js"
   },
   "author": "",
   "homepage": "https://github.com/LavaMoat/LavaMoat/tree/main/packages/allow-scripts"
